@@ -1,0 +1,38 @@
+.btn{
+	color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding:4px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0px transparent !important;
+    
+}
+
+.btn:active{
+	color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+    outline: 0px transparent !important;
+}
+
+input{
+	padding: 4px;
+	border: solid 1px  #ced4da;
+	outline: 0px transparent !important;
+}
+
+input:active, input:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    outline: 0px transparent !important;
+}
+
+.chat{
+	height: 90vh;
+	overflow-y:scroll;
+	padding: 20px;
+}
